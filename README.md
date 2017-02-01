@@ -4,13 +4,14 @@ Instagram API for PHP using Guzzle
 ## Installation
 Create a directory with name .cred in your code directory
 For example
-
+```
 instagram (root)
   |
-  ---- conf
-  ---- reference
-  ---- vendor
-  ---- .cred
+   ---- conf
+   ---- reference
+   ---- vendor
+   ---- .cred
+```
 
 ## Usage
 include instagram.php file and provide the authentication url in constructor, for example authentication url is auth.php
