@@ -2,7 +2,7 @@
 Instagram API for PHP using Guzzle
 
 ## Installation
-Create a directory with name .cred in your code directory
+Create a directory with name .cred in your code directory, auth token will be placed in .cred directory
 For example
 ```
 instagram (root)
@@ -14,13 +14,13 @@ instagram (root)
 ```
 
 ## Usage
-include instagram.php file and provide the authentication url in constructor, for example authentication url is auth.php
+Include instagram.php file in your code and provide the authentication url in constructor, for example authentication url is auth.php
 
 ```php
 include_once('instagram.php');
 $instagram = new Instagram('auth.php');
 ```
-Makes call to instagram using their endpoints
+Make call to instagram using their endpoints
 For example to get posts liked by me
 
 ```php
@@ -30,6 +30,7 @@ try {
 	echo $e->getMessage();
 }
 ```
+
 index.php contains the example code
 
 ## Authentication Scope
