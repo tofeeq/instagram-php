@@ -1,0 +1,6 @@
+{
+	"Client_ID" 	: "paste your instagram app client id here",
+	"Client_Secret" : "paste your instagram app client secret here",
+	"Redirect_Url"	: "http://localhost/instagram/auth_callback.php",
+	"API_ENDPOINT"	: "https://api.instagram.com/v1/"
+}
